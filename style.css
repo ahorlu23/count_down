@@ -153,8 +153,8 @@ body {
     }
 
     .countdown-item {
-        padding: 1rem; /* Further adjust padding for smaller screens */
-        font-size: 1.5rem; /* Further adjust font size for smaller screens */
+        padding: 1rem;
+        font-size: 1.5rem; 
     }
 
     .count {
