@@ -1,22 +1,3 @@
-// setInterval(function(){
-//     const date = new Date() 
-//     const day = date.getDate()
-//     const hours = date.getHours()
-//     const minutes = date.getMinutes()
-//     const seconds = date.getSeconds()
-
-//     const dayElem = document.querySelector('.firstNum')
-//     const hoursElem = document.querySelector('.secondNum')
-//     const minutesElem = document.querySelector('.thirdNum')
-//     const secondsElem = document.querySelector('.fourthNum')
-
-//     dayElem.innerHTML = day
-//     hoursElem.innerHTML = hours
-//     minutesElem.innerHTML = minutes
-//     secondsElem.innerHTML = seconds
-
-// },1000) 
-
 // Function to add leading zero to single-digit numbers
 function formatNumber(number) {
     return number < 10 ? `0${number}` : number;
