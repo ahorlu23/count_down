@@ -4,7 +4,7 @@ function formatNumber(number) {
 }
 
 // Set the target date for the countdown
-const targetDate = new Date('2024-03-25T23:59:59');
+const targetDate = new Date('2024-04-01T23:59:59');
 
 setInterval(function() {
     const currentDate = new Date();
